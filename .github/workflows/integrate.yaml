@@ -19,7 +19,7 @@ jobs:
           cache: npm
       
       - name: Install dependencies
-        uses: npm ci
+        uses: npm install
 
       - name: Run tests
         uses: npm test
